@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+body {
+  background-image: url('\backgroundj.jpg');
+  background-size: cover;         
+  background-repeat: no-repeat;  
+  background-position: center;    
+  background-attachment: fixed;   
+  min-height: 100vh;              
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+  color: #333;                   
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Fix issues with mobile scrolling */
+  }
+}
+.app-container {
+  min-height: 100vh;
+  background-image: url('/backgroundj.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
