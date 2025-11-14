@@ -10,7 +10,7 @@ const uri = process.env.MONGO_URI;
 const client = new MongoClient(uri);
 
 app.use(cors({
-  origin: "https://hkjewelry-iazi7h6aj-honeys-projects-d69e5116.vercel.app", // Replace with your frontend URL
+  origin: "https://hkjewelry.vercel.app", // Replace with your frontend URL
   credentials: true
 }));
 app.use(express.json()); // Parse JSON bodies
